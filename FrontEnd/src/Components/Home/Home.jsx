@@ -12,6 +12,7 @@ import Kids from "../../assets/Images/Kids.png";
 import Banner1 from "../../assets/Images/banner1.png";
 // import vuee from "../../assets/Images/Untitled-1.png";
 import Banner2 from "../../assets/Images/banner3.png";
+import PromotionalBanners from "../PromotionalBanners/PromotionalBanners";
 
 const images = [
   // { src: gozzayz, alt: "Stylish Outfit - Westworld" },
@@ -49,6 +50,7 @@ const Home = () => {
       </div> */}
     </div>
       <CategoryCards/>
+      <PromotionalBanners/>
       <NewYearSaleBanner/>
       <TrendingItems/>
       {/* <OfferBanner/> */}
