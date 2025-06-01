@@ -15,12 +15,12 @@ const trendingItems = [
     { id: 4, name: "", image:  card1, link: "" },
     { id: 5, name: "", image: politshirts , link: "" },
     { id: 6, name: "", image: overshirts, link: "" },
-    { id: 5, name: "", image: politshirts , link: "" },
-    { id: 6, name: "", image: overshirts, link: "" },
-    { id: 6, name: "", image: overshirts, link: "" },
-    { id: 6, name: "", image: overshirts, link: "" },
-    { id: 6, name: "", image: overshirts, link: "" },
-    { id: 6, name: "", image: overshirts, link: "" },
+    { id: 7, name: "", image: politshirts , link: "" },
+    { id: 8, name: "", image: overshirts, link: "" },
+    { id: 9, name: "", image: overshirts, link: "" },
+    { id: 10, name: "", image: overshirts, link: "" },
+    { id: 11, name: "", image: overshirts, link: "" },
+    { id: 12, name: "", image: overshirts, link: "" },
 ];
 
 const TrendingItems = () => {
