@@ -63,7 +63,7 @@ export default function PromotionalBanners() {
             <div className="absolute top-12 left-16 w-1 h-8 bg-gradient-to-b from-cyan-400 to-transparent opacity-20"></div>
 
             {/* Content */}
-            <div className="relative z-10 text-center pt-12">
+            <div className="relative text-center pt-12">
               <div className="text-cyan-400 text-sm font-medium mb-3 tracking-wider cursor-default">UP TO 80% OFF</div>
               <div className="text-white text-5xl font-light mb-2 tracking-tight cursor-default">SUPER</div>
               <div className="text-white text-5xl font-bold mb-8 tracking-tight cursor-default">SALE</div>
