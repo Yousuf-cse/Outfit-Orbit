@@ -15,12 +15,12 @@ const CategoryCards = () => {
     return (
         <div className="max-w-6xl mx-auto text-center p-4">
             <h1 className="text-3xl font-bold mb-6">Shop by Category</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
                 {categories.map(category => (
                     <a
                         key={category.id}
                         href={category.link}
-                        className="bg-gradient-to-br from-white via-gray-100 to-white border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
+                        className="bg-gradient-to-br from-white via-gray-100 to-white border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
                     >
                         {category.name}
                     </a>
