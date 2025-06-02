@@ -13,6 +13,9 @@ import Banner1 from "../../assets/Images/banner1.png";
 // import vuee from "../../assets/Images/Untitled-1.png";
 import Banner2 from "../../assets/Images/banner3.png";
 import PromotionalBanners from "../PromotionalBanners/PromotionalBanners";
+import CollegeUniformBanner from "../CollegeUniformBanner/CollegeUniformBanner";
+import StudioComingSoonBanner from "../StudioComingSoonBanner/StudioComingSoonBanner";
+import MostBoughtSection from "../MostBroughtSection/MostBroughtSection";
 
 const images = [
   // { src: gozzayz, alt: "Stylish Outfit - Westworld" },
@@ -20,7 +23,7 @@ const images = [
   // { src: vogue, alt: 'Winter Outfit' },
   { src: Banner1, alt: 'Winter Outfit' },
   // { src: MenTrend, alt: 'Winter Outfit' },
-  { src: Banner2, alt: 'Winter Outfit' },
+  { src: Banner2, alt: 'Female Outfit' },
   // { src: Kids, alt: 'Winter Outfit' },
 ];
 
@@ -51,11 +54,14 @@ const Home = () => {
     </div>
       <CategoryCards/>
       <PromotionalBanners/>
+      <CollegeUniformBanner/>
+      <MostBoughtSection/>
       <NewYearSaleBanner/>
-      <TrendingItems/>
+      <StudioComingSoonBanner/>
+      {/* <TrendingItems/> */}
       {/* <OfferBanner/> */}
-      <Studio/>
-      <WinterClothing/>
+      {/* <Studio/>
+      <WinterClothing/> */}
       <DownloadAppBanner/>
     </>
   );
