@@ -45,6 +45,10 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center space-x-4 text-gray-600">
+            <Link to="/register" className="flex items-center hover:text-black">
+              <i className="fas fa-user"></i>
+              <span className="ml-1">Sign Up</span>
+            </Link>
             <Link to="login" className="flex items-center hover:text-black">
               <i className="fas fa-user"></i>
               <span className="ml-1">Log In</span>
